@@ -16,6 +16,8 @@ void draw(){
   noStroke();
   fill(30, 204, 91); // a nice froggy green!
 
+var x = 250;
+
   ellipse(x, y, 200, 100); // face
   ellipse(x - 50, y - 50, 40, 40); // left eye socket
   ellipse(x + 50, y - 50, 40, 40); // right eye socket
